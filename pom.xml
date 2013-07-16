@@ -184,6 +184,12 @@
 			<artifactId>aspectjweaver</artifactId>
 			<version>${project.aspectj}</version>
 		</dependency>
+		
+		<dependency>
+		    <groupId>org.quartz-scheduler</groupId>
+		    <artifactId>quartz</artifactId>
+		    <version>1.8.5</version>
+		</dependency>
 	</dependencies>
 
 	<build>
@@ -200,7 +206,7 @@
 				</configuration>
 			</plugin>
 		</plugins>
-		<finalName>roki-parent</finalName>
+		<finalName>javasoft-parent</finalName>
 	</build>
 </project>
 
